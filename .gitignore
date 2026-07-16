@@ -1,27 +1,33 @@
-# Ignore Python cache and compiled files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Ignore virtual environment folders
+# Python virtual environment
 venv/
-env/
 .venv/
+env/
 
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Python cache
+__pycache__/
+*.py[cod]
 
-# Ignore model artifacts
-*.pkl
-*.h5
-*.joblib
+# Streamlit cache
+.streamlit/cache/
 
-# Ignore logs and temp files
-*.log
-*.tmp
-*.swp
+# Environment variables
+.env
 
-# Ignore OS-specific files
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
